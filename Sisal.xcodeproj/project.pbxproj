@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80565B9328F4650400055BDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565B9228F4650400055BDC /* AppDelegate.swift */; };
+		80565B9528F4650400055BDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565B9428F4650400055BDC /* SceneDelegate.swift */; };
+		80565B9728F4650400055BDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565B9628F4650400055BDC /* ViewController.swift */; };
+		80565B9A28F4650400055BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80565B9828F4650400055BDC /* Main.storyboard */; };
+		80565B9C28F4650500055BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80565B9B28F4650500055BDC /* Assets.xcassets */; };
+		80565B9F28F4650500055BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80565B9D28F4650500055BDC /* LaunchScreen.storyboard */; };
+		80565BAA28F4650500055BDC /* SisalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BA928F4650500055BDC /* SisalTests.swift */; };
+		80565BB428F4650500055BDC /* SisalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BB328F4650500055BDC /* SisalUITests.swift */; };
+		80565BB628F4650500055BDC /* SisalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BB528F4650500055BDC /* SisalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80565BA628F4650500055BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80565B8728F4650400055BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80565B8E28F4650400055BDC;
+			remoteInfo = Sisal;
+		};
+		80565BB028F4650500055BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80565B8728F4650400055BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80565B8E28F4650400055BDC;
+			remoteInfo = Sisal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80565B8F28F4650400055BDC /* Sisal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sisal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80565B9228F4650400055BDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80565B9428F4650400055BDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80565B9628F4650400055BDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80565B9928F4650400055BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80565B9B28F4650500055BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80565B9E28F4650500055BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80565BA028F4650500055BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80565BA528F4650500055BDC /* SisalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80565BA928F4650500055BDC /* SisalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisalTests.swift; sourceTree = "<group>"; };
+		80565BAF28F4650500055BDC /* SisalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80565BB328F4650500055BDC /* SisalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisalUITests.swift; sourceTree = "<group>"; };
+		80565BB528F4650500055BDC /* SisalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80565B8C28F4650400055BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80565BA228F4650500055BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80565BAC28F4650500055BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80565B8628F4650400055BDC = {
+			isa = PBXGroup;
+			children = (
+				80565B9128F4650400055BDC /* Sisal */,
+				80565BA828F4650500055BDC /* SisalTests */,
+				80565BB228F4650500055BDC /* SisalUITests */,
+				80565B9028F4650400055BDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80565B9028F4650400055BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80565B8F28F4650400055BDC /* Sisal.app */,
+				80565BA528F4650500055BDC /* SisalTests.xctest */,
+				80565BAF28F4650500055BDC /* SisalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80565B9128F4650400055BDC /* Sisal */ = {
+			isa = PBXGroup;
+			children = (
+				80565B9228F4650400055BDC /* AppDelegate.swift */,
+				80565B9428F4650400055BDC /* SceneDelegate.swift */,
+				80565B9628F4650400055BDC /* ViewController.swift */,
+				80565B9828F4650400055BDC /* Main.storyboard */,
+				80565B9B28F4650500055BDC /* Assets.xcassets */,
+				80565B9D28F4650500055BDC /* LaunchScreen.storyboard */,
+				80565BA028F4650500055BDC /* Info.plist */,
+			);
+			path = Sisal;
+			sourceTree = "<group>";
+		};
+		80565BA828F4650500055BDC /* SisalTests */ = {
+			isa = PBXGroup;
+			children = (
+				80565BA928F4650500055BDC /* SisalTests.swift */,
+			);
+			path = SisalTests;
+			sourceTree = "<group>";
+		};
+		80565BB228F4650500055BDC /* SisalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80565BB328F4650500055BDC /* SisalUITests.swift */,
+				80565BB528F4650500055BDC /* SisalUITestsLaunchTests.swift */,
+			);
+			path = SisalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80565B8E28F4650400055BDC /* Sisal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80565BB928F4650500055BDC /* Build configuration list for PBXNativeTarget "Sisal" */;
+			buildPhases = (
+				80565B8B28F4650400055BDC /* Sources */,
+				80565B8C28F4650400055BDC /* Frameworks */,
+				80565B8D28F4650400055BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sisal;
+			productName = Sisal;
+			productReference = 80565B8F28F4650400055BDC /* Sisal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80565BA428F4650500055BDC /* SisalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80565BBC28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTests" */;
+			buildPhases = (
+				80565BA128F4650500055BDC /* Sources */,
+				80565BA228F4650500055BDC /* Frameworks */,
+				80565BA328F4650500055BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80565BA728F4650500055BDC /* PBXTargetDependency */,
+			);
+			name = SisalTests;
+			productName = SisalTests;
+			productReference = 80565BA528F4650500055BDC /* SisalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80565BAE28F4650500055BDC /* SisalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80565BBF28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalUITests" */;
+			buildPhases = (
+				80565BAB28F4650500055BDC /* Sources */,
+				80565BAC28F4650500055BDC /* Frameworks */,
+				80565BAD28F4650500055BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80565BB128F4650500055BDC /* PBXTargetDependency */,
+			);
+			name = SisalUITests;
+			productName = SisalUITests;
+			productReference = 80565BAF28F4650500055BDC /* SisalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80565B8728F4650400055BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					80565B8E28F4650400055BDC = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					80565BA428F4650500055BDC = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 80565B8E28F4650400055BDC;
+					};
+					80565BAE28F4650500055BDC = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 80565B8E28F4650400055BDC;
+					};
+				};
+			};
+			buildConfigurationList = 80565B8A28F4650400055BDC /* Build configuration list for PBXProject "Sisal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80565B8628F4650400055BDC;
+			productRefGroup = 80565B9028F4650400055BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80565B8E28F4650400055BDC /* Sisal */,
+				80565BA428F4650500055BDC /* SisalTests */,
+				80565BAE28F4650500055BDC /* SisalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80565B8D28F4650400055BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80565B9F28F4650500055BDC /* LaunchScreen.storyboard in Resources */,
+				80565B9C28F4650500055BDC /* Assets.xcassets in Resources */,
+				80565B9A28F4650400055BDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80565BA328F4650500055BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80565BAD28F4650500055BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80565B8B28F4650400055BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80565B9728F4650400055BDC /* ViewController.swift in Sources */,
+				80565B9328F4650400055BDC /* AppDelegate.swift in Sources */,
+				80565B9528F4650400055BDC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80565BA128F4650500055BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80565BAA28F4650500055BDC /* SisalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80565BAB28F4650500055BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80565BB428F4650500055BDC /* SisalUITests.swift in Sources */,
+				80565BB628F4650500055BDC /* SisalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80565BA728F4650500055BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80565B8E28F4650400055BDC /* Sisal */;
+			targetProxy = 80565BA628F4650500055BDC /* PBXContainerItemProxy */;
+		};
+		80565BB128F4650500055BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80565B8E28F4650400055BDC /* Sisal */;
+			targetProxy = 80565BB028F4650500055BDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80565B9828F4650400055BDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80565B9928F4650400055BDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80565B9D28F4650500055BDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80565B9E28F4650500055BDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80565BB728F4650500055BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80565BB828F4650500055BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80565BBA28F4650500055BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMCVZ8F7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sisal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emredegirmenci.Sisal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80565BBB28F4650500055BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMCVZ8F7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sisal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emredegirmenci.Sisal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80565BBD28F4650500055BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMCVZ8F7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emredegirmenci.SisalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisal.app/Sisal";
+			};
+			name = Debug;
+		};
+		80565BBE28F4650500055BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMCVZ8F7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emredegirmenci.SisalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisal.app/Sisal";
+			};
+			name = Release;
+		};
+		80565BC028F4650500055BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMCVZ8F7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emredegirmenci.SisalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sisal;
+			};
+			name = Debug;
+		};
+		80565BC128F4650500055BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMCVZ8F7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emredegirmenci.SisalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sisal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80565B8A28F4650400055BDC /* Build configuration list for PBXProject "Sisal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80565BB728F4650500055BDC /* Debug */,
+				80565BB828F4650500055BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80565BB928F4650500055BDC /* Build configuration list for PBXNativeTarget "Sisal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80565BBA28F4650500055BDC /* Debug */,
+				80565BBB28F4650500055BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80565BBC28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80565BBD28F4650500055BDC /* Debug */,
+				80565BBE28F4650500055BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80565BBF28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80565BC028F4650500055BDC /* Debug */,
+				80565BC128F4650500055BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80565B8728F4650400055BDC /* Project object */;
+}
