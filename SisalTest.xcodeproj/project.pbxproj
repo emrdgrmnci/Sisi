@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		80565B8F28F4650400055BDC /* Sisal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sisal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80565B8F28F4650400055BDC /* SisalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SisalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80565B9228F4650400055BDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80565B9428F4650400055BDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		80565B9628F4650400055BDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		80565B9B28F4650500055BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80565B9E28F4650500055BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80565BA028F4650500055BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80565BA528F4650500055BDC /* SisalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80565BA528F4650500055BDC /* SisalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80565BA928F4650500055BDC /* SisalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisalTests.swift; sourceTree = "<group>"; };
-		80565BAF28F4650500055BDC /* SisalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80565BAF28F4650500055BDC /* SisalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80565BB328F4650500055BDC /* SisalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisalUITests.swift; sourceTree = "<group>"; };
 		80565BB528F4650500055BDC /* SisalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		80565B9028F4650400055BDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80565B8F28F4650400055BDC /* Sisal.app */,
-				80565BA528F4650500055BDC /* SisalTests.xctest */,
-				80565BAF28F4650500055BDC /* SisalUITests.xctest */,
+				80565B8F28F4650400055BDC /* SisalTest.app */,
+				80565BA528F4650500055BDC /* SisalTestTests.xctest */,
+				80565BAF28F4650500055BDC /* SisalTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80565B8E28F4650400055BDC /* Sisal */ = {
+		80565B8E28F4650400055BDC /* SisalTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80565BB928F4650500055BDC /* Build configuration list for PBXNativeTarget "Sisal" */;
+			buildConfigurationList = 80565BB928F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTest" */;
 			buildPhases = (
 				80565B8B28F4650400055BDC /* Sources */,
 				80565B8C28F4650400055BDC /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = Sisal;
+			name = SisalTest;
 			productName = Sisal;
-			productReference = 80565B8F28F4650400055BDC /* Sisal.app */;
+			productReference = 80565B8F28F4650400055BDC /* SisalTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80565BA428F4650500055BDC /* SisalTests */ = {
+		80565BA428F4650500055BDC /* SisalTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80565BBC28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTests" */;
+			buildConfigurationList = 80565BBC28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTestTests" */;
 			buildPhases = (
 				80565BA128F4650500055BDC /* Sources */,
 				80565BA228F4650500055BDC /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				80565BA728F4650500055BDC /* PBXTargetDependency */,
 			);
-			name = SisalTests;
+			name = SisalTestTests;
 			productName = SisalTests;
-			productReference = 80565BA528F4650500055BDC /* SisalTests.xctest */;
+			productReference = 80565BA528F4650500055BDC /* SisalTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		80565BAE28F4650500055BDC /* SisalUITests */ = {
+		80565BAE28F4650500055BDC /* SisalTestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80565BBF28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalUITests" */;
+			buildConfigurationList = 80565BBF28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTestUITests" */;
 			buildPhases = (
 				80565BAB28F4650500055BDC /* Sources */,
 				80565BAC28F4650500055BDC /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				80565BB128F4650500055BDC /* PBXTargetDependency */,
 			);
-			name = SisalUITests;
+			name = SisalTestUITests;
 			productName = SisalUITests;
-			productReference = 80565BAF28F4650500055BDC /* SisalUITests.xctest */;
+			productReference = 80565BAF28F4650500055BDC /* SisalTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 80565B8A28F4650400055BDC /* Build configuration list for PBXProject "Sisal" */;
+			buildConfigurationList = 80565B8A28F4650400055BDC /* Build configuration list for PBXProject "SisalTest" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80565B8E28F4650400055BDC /* Sisal */,
-				80565BA428F4650500055BDC /* SisalTests */,
-				80565BAE28F4650500055BDC /* SisalUITests */,
+				80565B8E28F4650400055BDC /* SisalTest */,
+				80565BA428F4650500055BDC /* SisalTestTests */,
+				80565BAE28F4650500055BDC /* SisalTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		80565BA728F4650500055BDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80565B8E28F4650400055BDC /* Sisal */;
+			target = 80565B8E28F4650400055BDC /* SisalTest */;
 			targetProxy = 80565BA628F4650500055BDC /* PBXContainerItemProxy */;
 		};
 		80565BB128F4650500055BDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80565B8E28F4650400055BDC /* Sisal */;
+			target = 80565B8E28F4650400055BDC /* SisalTest */;
 			targetProxy = 80565BB028F4650500055BDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -502,7 +502,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisal.app/Sisal";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SisalTest.app/SisalTest";
 			};
 			name = Debug;
 		};
@@ -522,7 +522,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisal.app/Sisal";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SisalTest.app/SisalTest";
 			};
 			name = Release;
 		};
@@ -565,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80565B8A28F4650400055BDC /* Build configuration list for PBXProject "Sisal" */ = {
+		80565B8A28F4650400055BDC /* Build configuration list for PBXProject "SisalTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80565BB728F4650500055BDC /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80565BB928F4650500055BDC /* Build configuration list for PBXNativeTarget "Sisal" */ = {
+		80565BB928F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80565BBA28F4650500055BDC /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80565BBC28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTests" */ = {
+		80565BBC28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80565BBD28F4650500055BDC /* Debug */,
@@ -592,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80565BBF28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalUITests" */ = {
+		80565BBF28F4650500055BDC /* Build configuration list for PBXNativeTarget "SisalTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80565BC028F4650500055BDC /* Debug */,
