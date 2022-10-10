@@ -15,6 +15,7 @@
 		80565BAA28F4650500055BDC /* SisalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BA928F4650500055BDC /* SisalTests.swift */; };
 		80565BB428F4650500055BDC /* SisalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BB328F4650500055BDC /* SisalUITests.swift */; };
 		80565BB628F4650500055BDC /* SisalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BB528F4650500055BDC /* SisalUITestsLaunchTests.swift */; };
+		80565BC428F466F200055BDC /* PhotoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BC328F466F200055BDC /* PhotoClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		80565BAF28F4650500055BDC /* SisalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80565BB328F4650500055BDC /* SisalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisalUITests.swift; sourceTree = "<group>"; };
 		80565BB528F4650500055BDC /* SisalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80565BC328F466F200055BDC /* PhotoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		80565B9128F4650400055BDC /* Sisal */ = {
 			isa = PBXGroup;
 			children = (
+				80565BC228F466D000055BDC /* APIEndpoint */,
 				80565B9228F4650400055BDC /* AppDelegate.swift */,
 				80565B9428F4650400055BDC /* SceneDelegate.swift */,
 				80565B9828F4650400055BDC /* Main.storyboard */,
@@ -122,6 +125,14 @@
 				80565BB528F4650500055BDC /* SisalUITestsLaunchTests.swift */,
 			);
 			path = SisalUITests;
+			sourceTree = "<group>";
+		};
+		80565BC228F466D000055BDC /* APIEndpoint */ = {
+			isa = PBXGroup;
+			children = (
+				80565BC328F466F200055BDC /* PhotoClient.swift */,
+			);
+			path = APIEndpoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80565BC428F466F200055BDC /* PhotoClient.swift in Sources */,
 				80565B9328F4650400055BDC /* AppDelegate.swift in Sources */,
 				80565B9528F4650400055BDC /* SceneDelegate.swift in Sources */,
 			);
