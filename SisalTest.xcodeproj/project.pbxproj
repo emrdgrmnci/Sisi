@@ -17,6 +17,8 @@
 		80565BB628F4650500055BDC /* SisalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BB528F4650500055BDC /* SisalUITestsLaunchTests.swift */; };
 		80565BC428F466F200055BDC /* PhotoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BC328F466F200055BDC /* PhotoClient.swift */; };
 		80565BC728F467A800055BDC /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BC628F467A800055BDC /* AppRouter.swift */; };
+		80565BCA28F4681400055BDC /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BC928F4681400055BDC /* Photo.swift */; };
+		80565BCB28F4682400055BDC /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BC928F4681400055BDC /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		80565BB528F4650500055BDC /* SisalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		80565BC328F466F200055BDC /* PhotoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoClient.swift; sourceTree = "<group>"; };
 		80565BC628F467A800055BDC /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		80565BC928F4681400055BDC /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		80565B9128F4650400055BDC /* Sisal */ = {
 			isa = PBXGroup;
 			children = (
+				80565BC828F4680600055BDC /* DTOs */,
 				80565BC528F4674B00055BDC /* App */,
 				80565BC228F466D000055BDC /* APIEndpoint */,
 				80565B9828F4650400055BDC /* Main.storyboard */,
@@ -144,6 +148,14 @@
 				80565BC628F467A800055BDC /* AppRouter.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		80565BC828F4680600055BDC /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				80565BC928F4681400055BDC /* Photo.swift */,
+			);
+			path = DTOs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +293,7 @@
 				80565BC428F466F200055BDC /* PhotoClient.swift in Sources */,
 				80565B9328F4650400055BDC /* AppDelegate.swift in Sources */,
 				80565B9528F4650400055BDC /* SceneDelegate.swift in Sources */,
+				80565BCA28F4681400055BDC /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80565BCB28F4682400055BDC /* Photo.swift in Sources */,
 				80565BAA28F4650500055BDC /* SisalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
