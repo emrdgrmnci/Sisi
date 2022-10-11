@@ -1,14 +1,13 @@
 //
-//  SisalTests.swift
-//  SisalTests
+//  SisalDetailTests.swift
+//  SisalDetailTests
 //
 //  Created by TextalkMedia-Emre on 2022-10-10.
 //
 
 import XCTest
-@testable import Sisal
 
-final class SisalTests: XCTestCase {
+final class SisalDetailTests: XCTestCase {
   private var detailViewModel: MainDetailViewModel!
   private var detailViewModelOutput: MockDetailViewModelOutput!
 

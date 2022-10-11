@@ -33,8 +33,14 @@
 		80565BF828F46B3100055BDC /* MockDetailViewModelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BF728F46B3100055BDC /* MockDetailViewModelOutput.swift */; };
 		80565BFA28F46B4700055BDC /* MockViewModelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BF928F46B4700055BDC /* MockViewModelOutput.swift */; };
 		80565BFD28F46B8E00055BDC /* photo.json in Resources */ = {isa = PBXBuildFile; fileRef = 80565BFC28F46B8E00055BDC /* photo.json */; };
+		8090EA5528F5748A009DDFBC /* MainDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BD928F4691100055BDC /* MainDetailContracts.swift */; };
+		8090EA5628F57495009DDFBC /* MainDetailPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BE328F469AA00055BDC /* MainDetailPresentation.swift */; };
+		8090EA5728F574B2009DDFBC /* photo.json in Resources */ = {isa = PBXBuildFile; fileRef = 80565BFC28F46B8E00055BDC /* photo.json */; };
 		80B497CA28F46FF3000B2511 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 80B497C928F46FF3000B2511 /* Kingfisher */; };
 		80B497CB28F47047000B2511 /* SisalClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BFF28F46C2C00055BDC /* SisalClientTest.swift */; };
+		80E269E028F56D0300B963CE /* MainDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BDF28F4696F00055BDC /* MainDetailViewModel.swift */; };
+		80E269E228F56D2100B963CE /* MockDetailViewModelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BF728F46B3100055BDC /* MockDetailViewModelOutput.swift */; };
+		80E269E328F56D7500B963CE /* MainListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80565BD028F4689500055BDC /* MainListContracts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -401,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8090EA5728F574B2009DDFBC /* photo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,9 +445,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E269E228F56D2100B963CE /* MockDetailViewModelOutput.swift in Sources */,
+				80E269E028F56D0300B963CE /* MainDetailViewModel.swift in Sources */,
 				80B497CB28F47047000B2511 /* SisalClientTest.swift in Sources */,
+				8090EA5628F57495009DDFBC /* MainDetailPresentation.swift in Sources */,
 				80565BCB28F4682400055BDC /* Photo.swift in Sources */,
 				80565BAA28F4650500055BDC /* SisalDetailTests.swift in Sources */,
+				8090EA5528F5748A009DDFBC /* MainDetailContracts.swift in Sources */,
+				80E269E328F56D7500B963CE /* MainListContracts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +608,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NMCVZ8F7S5;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sisal/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -624,6 +637,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NMCVZ8F7S5;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sisal/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
